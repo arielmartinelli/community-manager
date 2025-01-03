@@ -1,0 +1,45 @@
+
+body {
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 25px;
+    max-width: 1000px;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hidden-content {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Ajusta el tamaño de las imágenes a un tamaño cuadrado */
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio de la tarjeta */
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+}
