@@ -11,7 +11,7 @@ function sendToWhatsApp() {
     const date = document.getElementById('date').value;
     const plan = document.getElementById('plan').value;
     const phoneNumber = '3516121498';
-    const message = `Hola, quiero organizar un día troll el ${date} con el plan: ${plan}`;
+    const message = `Hola, quiero organizar un día de ${date} con el plan: ${plan}`;
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.location.href = whatsappURL;
 }
