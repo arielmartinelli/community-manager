@@ -1,4 +1,7 @@
 
+
+
+
 document.getElementById('reveal-btn').addEventListener('click', () => {
     // Ocultar la primera parte de la página
     document.getElementById('main-content').style.display = 'none';
